@@ -105,7 +105,7 @@ In other words:
   of characters by two dollar characters, in which case single-quote can be used without escaping (``$$It's raining
   today$$``). That latter form is often used when defining :ref:`user-defined functions <udfs>` to avoid having to
   escape single-quote characters in function body (as they are more likely to occur than ``$$``).
-- Integer, float and boolean constant are defined as expected. Note however than float allows the special ``NaN`` and
+- Integer, float and boolean constant are defined as expected. Note however that float allows the special ``NaN`` and
   ``Infinity`` constants.
 - CQL supports UUID_ constants.
 - Blobs content are provided in hexadecimal and prefixed by ``0x``.
